@@ -19,59 +19,6 @@ namespace Add_Two_Numbers__singly_Linked_list_
             Console.WriteLine("Hello World!");
         }
     }
-
-    internal class Node
-    {
-        internal int data;
-        internal Node next;
-
-        public Node(int d)
-        {
-            data = d;
-            next = null;
-        }
-    }
-
-    internal class DNode 
-    {  
-        internal int data;  
-        internal DNode prev;  
-        internal DNode next;  
-        public DNode(int d) {  
-            data = d;  
-            prev = null;  
-            next = null;  
-        }  
-    }  
-
-    internal class SingleLinkedList
-    {
-        internal Node head;
-    }
-
-    
-    internal class DoubleLinkedList 
-    {  
-        internal DNode head;  
-    }  
-
-    internal void InsertFront (SingleLinkedList, singlyList, int data)
-    {
-        Node new_node = new Node(new_data);
-        new_node.next = singlyList.head;
-        singlyList.head = new_node;
-    }
-
-    internal void InsertFront(DoubleLinkedList doubleLinkedList, int data) {  
-    DNode newNode = new DNode(data);  
-    newNode.next = doubleLinkedList.head;  
-    newNode.prev = null;  
-    if (doubleLinkedList.head != null) {  
-        doubleLinkedList.head.prev = newNode;  
-    }  
-    doubleLinkedList.head = newNode;  
-    }  
 }
 
-
-
+    
