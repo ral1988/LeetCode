@@ -14,7 +14,24 @@ namespace Valid_Parenthesis_String
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string s = "()";
+
+
+        }
+    }
+
+    static class Solution
+    {
+        public bool CheckValidString(string s)
+        {
+            bool checkString = false;
+
+            foreach (var character in s)
+            {
+                if (character == 
+            }
+
+            return checkString;
         }
     }
 }
